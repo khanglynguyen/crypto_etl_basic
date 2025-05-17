@@ -1,12 +1,12 @@
 # crypto_etl_basic
-In this basic project, we fetch data about a specific set of crypto such as Bitcoin, Ethereum and Solana and transform the data to approriate data, then save them to a database.
-+ 1_Extract task:
+In this basic project, we fetch data about a specific set of crypto such as Bitcoin, Ethereum and Solana and transform the data to approriate data, then save them to a database. ETL functions include:
+# 1_Extract task:
 + Fetch data from Binance api
-+ 2_Transform task:
+# 2_Transform task:
 + Select the data information that we need (e.g, lastPrice, openPrice, closePrice)
 + Create a DataFrame from the fetched JSON format data
 + Apply simple type transformation to the data (change str to int, datetime)
-+ 3_Load task:
+# 3_Load task:
 + Load the DataFrame into tables in Postgres database using the native function .toSQL()
 
 Additional requirements:
