@@ -10,6 +10,8 @@ In this basic project, we fetch data about a specific set of crypto such as Bitc
 + Load the DataFrame into tables in Postgres database using the native function .toSQL()
 
 Additional requirements:
++ Main code usage for the pipeline: Python. Main libraries: pandas (for DataFrame interaction and transformation), requests( for interacting with API)
++ Read through the Binance API document
 + Install Airflow on Docker
 + Edit yaml file of Docker to include Postgres information for installation of PgAdmin
 + Create database in Postgres
